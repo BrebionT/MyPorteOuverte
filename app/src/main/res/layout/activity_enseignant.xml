@@ -10,8 +10,8 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enseignant"
+        android:text="Connexion Enseignant"
         android:textSize="100px"
-        tools:layout_editor_absoluteX="183dp"
-        tools:layout_editor_absoluteY="60dp" />
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="44dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
