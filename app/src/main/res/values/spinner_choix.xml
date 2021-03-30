@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bac_choix">
+        <item>Général</item>
+        <item>STMG</item>
+        <item>STI2D</item>
+        <item>STL</item>
+        <item>SN</item>
+        <item>Autres</item>
+    </string-array>
+
+    <string-array name="option_choix">
+        <item>Ne se prononce pas</item>
+        <item>SLAM (développement)</item>
+        <item>SISR (réseau)</item>
+    </string-array>
+</resources>
