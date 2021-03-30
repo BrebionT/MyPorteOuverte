@@ -42,7 +42,7 @@
         app:layout_constraintTop_toBottomOf="@+id/titre_1">
 
         <TextView
-            android:id="@+id/text_nom"
+            android:id="@+id/text_login"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -52,7 +52,7 @@
             android:textColor="#000000" />
 
         <EditText
-            android:id="@+id/champ_nom"
+            android:id="@+id/champ_login"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:ems="10"

@@ -6,12 +6,75 @@
     android:layout_height="match_parent"
     tools:context=".Enseignant">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Connexion Enseignant"
-        android:textSize="100px"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="44dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="50dp"
+            android:text="Connexion Enseignant"
+            android:textSize="100px" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_login"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:text="Identifiant"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/champ_login"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/text_mdp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="start"
+                android:text="Mot de passe"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/champ_mdp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/bouton_connex"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Connexion"
+                android:textSize="25dp"
+                android:layout_marginTop="50dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
