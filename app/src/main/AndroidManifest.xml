@@ -12,12 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <activity android:name=".vue.Enseignant"></activity>
         <activity android:name=".vue.Inscription" />
         <activity android:name=".vue.Accueil">
 =======
         <activity android:name=".Inscription"></activity>
         <activity android:name=".Enseignant"></activity>
+=======
+        <activity android:name=".ListeCandidat"></activity>
+        <activity android:name=".Statistique" />
+        <activity android:name=".Inscription" />
+        <activity android:name=".Enseignant" />
+>>>>>>> bb9cf1c44b693c7d0fbf4e322a5ab45b7a1a5e43
         <activity android:name=".Accueil">
 >>>>>>> e7ac97d04180f79e7f918172cb4bf1c78f19b531
             <intent-filter>
