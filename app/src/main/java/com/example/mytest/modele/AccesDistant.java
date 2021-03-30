@@ -1,8 +1,9 @@
-package com.example.mytest;
+package com.example.mytest.modele;
 
 import android.util.Log;
 
-import com.example.mytest.AsyncResponse;
+import com.example.mytest.outils.AccesHTTP;
+import com.example.mytest.outils.AsyncResponse;
 
 import org.json.JSONArray;
 

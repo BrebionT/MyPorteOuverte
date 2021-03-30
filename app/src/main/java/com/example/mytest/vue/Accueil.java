@@ -1,10 +1,12 @@
-package com.example.mytest;
+package com.example.mytest.vue;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.mytest.R;
 
 public class Accueil extends AppCompatActivity {
 

@@ -1,8 +1,10 @@
-package com.example.mytest;
+package com.example.mytest.vue;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.mytest.R;
 
 public class Enseignant extends AppCompatActivity {
 
